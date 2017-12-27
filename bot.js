@@ -16,8 +16,8 @@ var bitcoinData = {
 };
 const K = 10;
 const QUERY_RANGE = 60; // How much days to go back in history to search for results (QUERY_RANGE + requestedDays)
-const WORK_TIMEOUT = 1000*60*120; // Wake the bot every 2 hours (tweet every 2 hours)
-const COIN_FETCH_TIMEOUT = 1000*60*118; // Fetch latest bitcoin prices 2 minutes before the bot awakens
+const WORK_TIMEOUT = 1000*60*5; // Wake the bot every 2 hours (tweet every 2 hours)
+const COIN_FETCH_TIMEOUT = 1000*60*3; // Fetch latest bitcoin prices 2 minutes before the bot awakens
 const MAX_GENERATED_DAY_VALUE = 20;
 const MIN_GENERATED_DAY_VALUE = 1;
 const BLACKLIST_TIME_TO_CLEAR = 5;
